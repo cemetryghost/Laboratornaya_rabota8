@@ -9,7 +9,7 @@ class ExampleException extends Exception{
     public double getNumber() {
         return number;
     }
-    public ExampleException(String message,double num){
+    public ExampleException(String message, double num){
         super(message);
         this.number = num;
     }
